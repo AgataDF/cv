@@ -6,6 +6,18 @@
 </head>
 <body>
     <h3>Kontakt</h3>
-    <p>email: <a href="mailto:agata.dziuba.programista@gmail.com">agata.dziuba.programista@gmail.com</a></p>
+    <p>email: agata.dziuba.programista@gmail.com</p>
+    <hr>
+    <form action="mailto:agata.dziuba.programista@gmail.com" method="post" enctype="text/plain">
+        <label>Imię i nazwisko:</label>
+        <input type="text" name="name"><br>
+        <label>Twój email:</label>
+        <input type="email" name="email"><br>
+        <label>Wiadomość:</label><br>
+        <textarea name="message" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+    </form>
+
+
 </body>
 </html>
